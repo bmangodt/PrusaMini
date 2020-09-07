@@ -27,8 +27,8 @@
 
 #define _SELFTEST_Z_MIN  (z_axis_len - len_tol_abs)
 #define _SELFTEST_Z_MAX  (z_axis_len + len_tol_abs)
-#define _SELFTEST_Z_FR   600 // 10 mm/s
-#define _SELFTEST_Z_TIME (2 * _SELFTEST_AXIS_TIME(_SELFTEST_Z_MAX, _SELFTEST_Z_FR))
+#define _SELFTEST_Z_FR   2500 // 10 mm/s
+#define _SELFTEST_Z_TIME (4 * _SELFTEST_AXIS_TIME(_SELFTEST_Z_MAX, _SELFTEST_Z_FR))
 
 #define _FIRSTLAY_E_DIST        100
 #define _FIRSTLAY_Z_DIST        20
